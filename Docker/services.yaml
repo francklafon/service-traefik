@@ -1,0 +1,6 @@
+http:
+  services:
+    gitlab:
+      loadBalancer:
+        servers:
+          - url: "http://gitlab.lab.local/"
